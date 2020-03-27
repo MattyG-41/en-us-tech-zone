@@ -202,7 +202,7 @@ For example: `VDAWorkstationCoreSetup.exe /quiet /controllers “control.domain.
 
 ## Common Network Ports
 
-Similar to any other Citrix VDA, there are a handful of key network ports to be mindful of opening for the system to function. As a reminder, ICA traffic needs to reach the Remote PC Access from the Citrix ADC hosting the external Citrix Gateway. A comprehensive list of ports can be found in [CTX101810](https://support.citrix.com/article/CTX101810#XenDesktop_XenApp).
+Similar to any other Citrix VDA, there are a handful of key network ports to be mindful of opening for the system to function. As a reminder, ICA traffic needs to reach the Remote PC from the Citrix ADC hosting the external Citrix Gateway. A comprehensive list of ports can be found in [CTX101810](https://support.citrix.com/article/CTX101810#XenDesktop_XenApp).
 
 ## VDA Registration
 
@@ -215,4 +215,4 @@ If the VDA is unable to register with the controller, review the [VDA registrati
 
 ## Further Guidance
 
-More design guidance including considerations and troubleshooting steps can be found in the [Remote PC Access product documentation](/en-us/citrix-virtual-apps-desktops/install-configure/remote-pc-access.html).
+Additional design guidance including considerations and troubleshooting steps can be found in the [Remote PC Access product documentation](/en-us/citrix-virtual-apps-desktops/install-configure/remote-pc-access.html).
